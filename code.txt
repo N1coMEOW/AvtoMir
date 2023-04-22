@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Автомир</title>
+<style>
+    .avto{position: absolute;
+width: 146px;
+height: 29px;
+left: 210px;
+top: 33px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;}
+
+.text{position: absolute;
+width: 72px;
+height: 29px;
+left: 422px;
+top: 33px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;}
+
+.poisk{position: absolute;
+width: 38px;
+height: 38px;
+left: 1075px;
+top: 29px;
+background: url(lupa.png);
+background-blend-mode: color;
+mix-blend-mode: hard-light;}
+
+.geo{position: absolute;
+width: 27px;
+height: 38px;
+left: 1135px;
+top: 29px;
+background: url(geo.png);}
+
+.lk{position: absolute;
+width: 38px;
+height: 38px;
+left: 1184px;
+top: 29px;
+background: url(lichkab.png);}
+
+.line1{position: absolute;
+width: 1069px;
+height: 0px;
+left: 179px;
+top: 107px;
+border: 2px solid #000000;}
+
+.logo{position: absolute;
+width: 102px;
+height: 102px;
+left: 1270px;
+top: -4px;
+background: url(logo.png);}
+
+.text10{position: absolute;
+width: 266px;
+height: 24px;
+left: 983px;
+top: 121px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;}
+
+.kartinka1{position: absolute;
+width: 1440px;
+height: 589px;
+left: 0px;
+top: 0px;
+background: url(kartinka1.jpg);}
+
+.knopka1{box-sizing: border-box;
+position: absolute;
+width: 135px;
+height: 44px;
+left: 1116px;
+top: 513px;
+border: 2px solid #000000;
+border-radius: 11px;}
+
+.textkn1{position: absolute;
+width: 66px;
+height: 18px;
+left: 1150px;
+top: 526px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;}
+
+.knopka2{box-sizing: border-box;
+position: absolute;
+width: 135px;
+height: 44px;
+left: 1116px;
+top: 459px;
+border: 2px solid #000000;
+border-radius: 11px;}
+
+.textkn2{position: absolute;
+    width: 64px;
+height: 18px;
+left: 1151px;
+top: 472px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;}
+
+.knopka3{box-sizing: border-box;
+position: absolute;
+width: 135px;
+height: 44px;
+left: 1116px;
+top: 405px;
+border: 2px solid #000000;
+border-radius: 11px;}
+
+.textkn3{position: absolute;
+width: 67px;
+height: 18px;
+left: 1150px;
+top: 418px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;}
+
+.blok2{position: absolute;
+width: 711px;
+height: 407px;
+left: 0px;
+top: 604px;
+background: url(kartinka2.png);}
+
+.knopka4{box-sizing: border-box;
+position: absolute;
+width: 239px;
+height: 60px;
+left: 51px;
+top: 922px;
+border: 2px solid #FFFFFF;
+border-radius: 11px;}
+
+.textkn4{position: absolute;
+width: 205px;
+height: 29px;
+left: 68px;
+top: 937px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;}
+
+.text4{position: absolute;
+width: 86px;
+height: 24px;
+left: 51px;
+top: 892px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;}
+
+.blok3{position: absolute;
+width: 711px;
+height: 407px;
+left: 729px;
+top: 604px;
+background: url(blok3.png);}
+
+.text5{position: absolute;
+width: 90px;
+height: 24px;
+left: 772px;
+top: 878px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;}
+
+.knopka5{box-sizing: border-box;
+position: absolute;
+width: 239px;
+height: 60px;
+left: 772px;
+top: 913px;
+border: 2px solid #FFFFFF;
+border-radius: 11px;}
+
+.textkn5{position: absolute;
+width: 205px;
+height: 29px;
+left: 789px;
+top: 928px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #FFFFFF;}
+
+.blk1{position: absolute;
+width: 603px;
+height: 158px;
+left: 0px;
+top: 1055px;
+background: #D9D9D9;}
+
+.txtblk1{position: absolute;
+width: 249px;
+height: 29px;
+left: 177px;
+top: 1119px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+color: #000000;}
+
+.blk2{position: absolute;
+width: 270px;
+height: 158px;
+left: 612px;
+top: 1055px;
+background: #A4A4A4;}
+
+.txtblk2{position: absolute;
+width: 237px;
+height: 24px;
+left: 628px;
+top: 1122px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;}
+
+.blk3{position: absolute;
+width: 270px;
+height: 158px;
+left: 891px;
+top: 1055px;
+background: #D9D9D9;}
+
+.txtblk3{position: absolute;
+width: 86px;
+height: 24px;
+left: 983px;
+top: 1122px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;}
+
+.blk4{position: absolute;
+width: 270px;
+height: 158px;
+left: 1170px;
+top: 1055px;
+background: #D9D9D9;}
+
+.txtblk4{position: absolute;
+width: 90px;
+height: 24px;
+left: 1260px;
+top: 1123px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #000000;}
+
+.poiskavto{position: absolute;
+width: 151px;
+height: 29px;
+left: 239px;
+top: 1294px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+text-align: center;
+color: #000000;}
+
+.lineavto{position: absolute;
+width: 199px;
+height: 0px;
+left: 215px;
+top: 1335px;
+border: 6px solid #00B2FF;}
+
+.linepodavto{position: absolute;
+width: 1069px;
+height: 0px;
+left: 185px;
+top: 1335px;
+border: 2px solid #000000;}
+
+.bmwm8{position: absolute;
+width: 256px;
+height: 289px;
+left: 186px;
+top: 1458px;
+background: url(bmwm8.png)}
+
+.namebmw{position: absolute;
+width: 89px;
+height: 24px;
+left: 270px;
+top: 1681px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #000000;}
+
+.morebmw{position: absolute;
+width: 108px;
+height: 18px;
+left: 259px;
+top: 1713px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;}
+
+.bmwm4{position: absolute;
+width: 256px;
+height: 289px;
+left: 456px;
+top: 1458px;
+background: url(bmwm4.png);}
+
+.namebmwm4{position: absolute;
+width: 135px;
+height: 24px;
+left: 519px;
+top: 1681px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+color: #000000;}
+
+.morebmwm4{position: absolute;
+width: 108px;
+height: 18px;
+left: 530px;
+top: 1712px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;}
+
+</style>
+</head>
+<body>
+    <div class="kartinka1"></div>
+    </body>
+    <body>
+<div class = "avto">Автомобили</div>
+<div class ="text">Тесты</div>
+<div class="poisk"></div>
+<div class="geo"></div>
+<div class="lk"></div>
+<div class="line1"></div>
+<div class="logo"></div>
+<font class="text10">С удовольствием за рулем</font>
+<div class="knopka1"></div>
+<font class="textkn1">ОТЗЫВЫ</font>
+<div class="knopka2"></div>
+<font class="textkn2">РЕМОНТ</font>
+<div class="knopka3"></div>
+<font class="textkn3">ТЮНИНГ</font>
+<div class="blok2"></div>
+<div class="knopka4"></div>
+<font class="textkn4">УЗНАТЬ БОЛЬШЕ</font>
+<font class="text4">РЕМОНТ</font>
+<div class="blok3"></div>
+<font class="text5">ТЮНИНГ</font>
+<div class="knopka5"></div>
+<font class="textkn5">УЗНАТЬ БОЛЬШЕ</font>
+<div class="blk1"></div>
+<font class="txtblk1">УЗНАЙ ОБ АВТО ВСЕ</font>
+<div class="blk2"></div>
+<font class="txtblk2">АВТОМОБИЛЬНЫЙ РЯД</font>
+<div class="blk3"></div>
+<font class="txtblk3">РЕМОНТ</font>
+<div class="blk4"></div>
+<font class="txtblk4">ТЮНИНГ</font>
+<font class="poiskavto">Выбери авто</font>
+<div class="lineavto"></div>
+<div class="linepodavto"></div>
+<div class="bmwm8"></div>
+<font class="namebmw">BMW M8</font>
+<font class="morebmw">ПОДРОБНЕЕ ></font>
+<div class="bmwm4"></div>
+<font class="namebmwm4">BMW M4 G82</font>
+<font class="morebmwm4">ПОДРОБНЕЕ ></font>
+
+</body>
+</html>
